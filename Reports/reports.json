@@ -1,0 +1,112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Print the Abstract",
+        "description": "",
+        "id": "psyarxiv-website;print-the-abstract",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 207210400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the URL",
+            "match": {
+              "location": "Psyariv_stepdef.launch_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4608900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter \"Psychlogy\" in search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Psychlogy",
+                  "offset": 7
+                }
+              ],
+              "location": "Psyariv_stepdef.enter_in_search_bar(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click the search button",
+            "match": {
+              "location": "Psyariv_stepdef.click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Sort the results by Newest to oldest",
+            "match": {
+              "location": "Psyariv_stepdef.sort_the_results_by_Newest_to_oldest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Check the equality of results and count displayed",
+            "match": {
+              "location": "Psyariv_stepdef.check_the_equality_of_results_and_count_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click the first hyperlink",
+            "match": {
+              "location": "Psyariv_stepdef.click_the_first_hyperlink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Print the text under abstract heading",
+            "match": {
+              "location": "Psyariv_stepdef.print_the_text_under_abstract_heading()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Psyarxiv Website",
+    "description": "",
+    "id": "psyarxiv-website",
+    "keyword": "Feature",
+    "uri": "C:/Users/Lohith/eclipse-workspace/IPT_Psyariv/src/test/java/Psyariv_feature/Psyariv.feature"
+  }
+]

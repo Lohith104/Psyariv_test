@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.212046">
+    <testcase classname="Psyarxiv Website" name="Print the Abstract" time="0.212046">
+        <system-out>
+            <![CDATA[Given Launch the URL........................................................passed
+When Enter "Psychlogy" in search bar........................................passed
+And Click the search button.................................................passed
+And Sort the results by Newest to oldest....................................passed
+And Check the equality of results and count displayed.......................passed
+And Click the first hyperlink...............................................passed
+Then Print the text under abstract heading..................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
